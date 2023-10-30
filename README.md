@@ -1,4 +1,4 @@
-# Jogo do Bicho Clicker
+# _Refrigerans Post Mortem_
  Final Project for Professor Resque's "Programação 2"
 
 replit: https://replit.com/join/vjoxfalnja-pedrocastro7
