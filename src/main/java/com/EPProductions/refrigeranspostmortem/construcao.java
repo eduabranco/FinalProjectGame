@@ -20,31 +20,79 @@ abstract class construcao {
 }
 
 class templo extends construcao {
-        String religiao;
+    String religiao;
 
-        public templo(String nome, int num, String religiao){
-                super(nome, num);
-                this.religiao = religiao;
-        }
+    public templo(String nome, int num, String religiao){
+        super(nome, num);
+        this.religiao = religiao;
+    }
 
-        public String getReligiao(){
-                return religiao;
-        }
+    public String getReligiao(){
+        return religiao;
+    }
 
-        @Override public String toString(){
-                return "Nome: " + this.nome +
-                        "\nNumero: " + this.num +
-                        "\nReligiao: " + this.religiao;
-        }
+    @Override 
+    public String toString(){
+        return "Nome: " + this.nome +
+            "\nNumero: " + this.num +
+            "\nReligiao: " + this.religiao;
+    }
 
 }
 
-//public class loja {
-//}
+class loja extends construcao {
+    String varejista;
+    public loja(String nome, int num, String varejista){
+        super(nome, num);
+        this.varejista = varejista;
+    }
     
-//public class cemiterio {
-//}
+    public String getVarejista(){
+        return varejista;
+    }
+    
+    @Override 
+    public String toString(){
+        return "Nome: " + this.nome +
+            "\nNumero: " + this.num +
+            "\nReligiao: " + this.varejista;
+    }
+}
+    
+class cemiterio extends construcao {
+    String funeraria;
+    public cemiterio(String nome, int num, String funeraria){
+        super(nome, num);
+        this.funeraria = funeraria;
+    }
+    
+    public String getFuneraria(){
+        return funeraria;
+    }
+    
+    @Override 
+    public String toString(){
+        return "Nome: " + this.nome +
+            "\nNumero: " + this.num +
+            "\nReligiao: " + this.funeraria;
+    }
+}
 
-//public class fabrica {
-//}
-
+class fabrica extends construcao {
+    String companhia;
+    public fabrica(String nome, int num, String companhia){
+        super(nome, num);
+        this.companhia = companhia;
+    }
+    
+    public String getCompanhia(){
+        return companhia;
+    }
+    
+    @Override 
+    public String toString(){
+        return "Nome: " + this.nome +
+            "\nNumero: " + this.num +
+            "\nReligiao: " + this.companhia;
+    }
+}

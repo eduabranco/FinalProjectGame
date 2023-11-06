@@ -1,3 +1,6 @@
 com\EPProductions\refrigeranspostmortem\RefrigeransPostMortem.class
+com\EPProductions\refrigeranspostmortem\fabrica.class
 com\EPProductions\refrigeranspostmortem\templo.class
+com\EPProductions\refrigeranspostmortem\cemiterio.class
 com\EPProductions\refrigeranspostmortem\construcao.class
+com\EPProductions\refrigeranspostmortem\loja.class
